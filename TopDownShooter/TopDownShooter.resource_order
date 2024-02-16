@@ -1,0 +1,24 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Player","order":18,"path":"folders/Player.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Wall","order":19,"path":"folders/Wall.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"SpritePlayerLeft","order":5,"path":"sprites/SpritePlayerLeft/SpritePlayerLeft.yy",},
+    {"name":"Sprite0","order":1,"path":"sprites/Sprite0/Sprite0.yy",},
+    {"name":"SpriteWallSolid","order":3,"path":"sprites/SpriteWallSolid/SpriteWallSolid.yy",},
+    {"name":"weapn_function","order":21,"path":"scripts/weapn_function/weapn_function.yy",},
+    {"name":"bullet","order":8,"path":"sprites/bullet/bullet.yy",},
+    {"name":"SpritePlayerUp","order":4,"path":"sprites/SpritePlayerUp/SpritePlayerUp.yy",},
+    {"name":"sAR","order":10,"path":"sprites/sAR/sAR.yy",},
+    {"name":"custom_function","order":20,"path":"scripts/custom_function/custom_function.yy",},
+    {"name":"SpriteS","order":2,"path":"sprites/SpriteS/SpriteS.yy",},
+    {"name":"SpritePlayerDown","order":3,"path":"sprites/SpritePlayerDown/SpritePlayerDown.yy",},
+    {"name":"ObjectWallSolid","order":1,"path":"objects/ObjectWallSolid/ObjectWallSolid.yy",},
+    {"name":"SpritePlayerRight","order":6,"path":"sprites/SpritePlayerRight/SpritePlayerRight.yy",},
+    {"name":"SpriteWall","order":2,"path":"sprites/SpriteWall/SpriteWall.yy",},
+    {"name":"ObjectBullet","order":9,"path":"objects/ObjectBullet/ObjectBullet.yy",},
+    {"name":"sShotgun","order":7,"path":"sprites/sShotgun/sShotgun.yy",},
+  ],
+}
