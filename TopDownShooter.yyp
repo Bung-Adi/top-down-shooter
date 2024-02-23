@@ -33,6 +33,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sZombie","path":"sprites/sZombie/sZombie.yy",},},
     {"id":{"name":"ObjectPlayer","path":"objects/ObjectPlayer/ObjectPlayer.yy",},},
+    {"id":{"name":"oSgBullet","path":"objects/oSgBullet/oSgBullet.yy",},},
     {"id":{"name":"custom_function","path":"scripts/custom_function/custom_function.yy",},},
     {"id":{"name":"oDamageEnemy","path":"objects/oDamageEnemy/oDamageEnemy.yy",},},
     {"id":{"name":"SpriteS","path":"sprites/SpriteS/SpriteS.yy",},},

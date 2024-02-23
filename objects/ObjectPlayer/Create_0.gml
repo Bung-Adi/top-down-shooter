@@ -19,8 +19,6 @@ sprite[3] = SpritePlayerDown;
 
 // Weapon info
 shoot_timer = 0;
-// - shoot_cooldown = 15;
-// - bullet_obj = ObjectBullet;
 array_push(global.PlayerWeapon, global.WeaponList.AR, global.WeaponList.Shotgun);
 selected_weapon = 0;
 weapon = global.PlayerWeapon[selected_weapon];

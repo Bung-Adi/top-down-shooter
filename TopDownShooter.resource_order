@@ -13,6 +13,7 @@
     {"name":"bullet","order":8,"path":"sprites/bullet/bullet.yy",},
     {"name":"SpritePlayerUp","order":4,"path":"sprites/SpritePlayerUp/SpritePlayerUp.yy",},
     {"name":"sZombie","order":5,"path":"sprites/sZombie/sZombie.yy",},
+    {"name":"oSgBullet","order":11,"path":"objects/oSgBullet/oSgBullet.yy",},
     {"name":"custom_function","order":20,"path":"scripts/custom_function/custom_function.yy",},
     {"name":"oDamageEnemy","order":2,"path":"objects/oDamageEnemy/oDamageEnemy.yy",},
     {"name":"SpriteS","order":2,"path":"sprites/SpriteS/SpriteS.yy",},

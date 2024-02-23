@@ -62,7 +62,7 @@ var _swap_wep_key = mouse_check_button_pressed(mb_right);
 		sprite_index = sprite[face];
 	#endregion
 	
-// Weapon Swapig
+// Weapon Swaping
 	#region
 	var _player_weapon = global.PlayerWeapon;
 	if _swap_wep_key{
@@ -81,11 +81,18 @@ var _swap_wep_key = mouse_check_button_pressed(mb_right);
 		// create bullet
 		var _xoffset = lengthdir_x(weapon.length + weapon_offset_dist, aim_dir)
 		var _yoffset = lengthdir_y(weapon.length + weapon_offset_dist, aim_dir)
-		var _bullet_instance = instance_create_depth(x + _xoffset, center_y + _yoffset, depth-100, weapon.bullet_obj);
 		
-		// change bullet direction
-		with(_bullet_instance){
-			dir = other.aim_dir;
+		var _spread = weapon.spread;
+		var _spread_div = _spread / weapon.bullet_num;
+		
+		// create the correct number of bullet
+		for (var i = 0; i < weapon.bullet_num; i++){
+			var _bullet_instance = instance_create_depth(x + _xoffset, center_y + _yoffset, depth-100, weapon.bullet_obj);
+		
+			// change bullet direction
+			with(_bullet_instance){
+				dir = other.aim_dir - _spread/2 + _spread_div*i;
+			}
 		}
 	}
 
