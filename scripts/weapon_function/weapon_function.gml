@@ -14,17 +14,17 @@ global.PlayerWeapon = array_create(0);
 // the weapon
 global.WeaponList = {
 	AR : new weapon_function(
-		sAR,
-		sprite_get_bbox_right(sAR) - sprite_get_xoffset(sAR),
-		ObjectBullet,
+		spr_ar,
+		sprite_get_bbox_right(spr_ar) - sprite_get_xoffset(spr_ar),
+		obj_bullet,
 		10,
 		1,
 		0
 	),
 	Shotgun : new weapon_function(
-		sShotgun,
-		sprite_get_bbox_right(sShotgun) - sprite_get_xoffset(sShotgun),
-		oSgBullet,
+		spr_shotgun,
+		sprite_get_bbox_right(spr_shotgun) - sprite_get_xoffset(spr_shotgun),
+		obj_bullet_sg,
 		30,
 		5,
 		45
